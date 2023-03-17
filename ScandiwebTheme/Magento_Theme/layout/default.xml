@@ -3,7 +3,7 @@
     <body>
         <referenceContainer name="header-top-content">
             <block class="Magento\Framework\View\Element\Template" name="freeshipping.msg.top"
-                   template="Magento_Theme::freeshippingmsg.phtml"/>
+                   template="Magento_Theme::freeshippingmsg.phtml" ifconfig="carriers/freeshipping/active"/>
         </referenceContainer>
         <referenceBlock name="logo">
             <arguments>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_layout.xsd">
+    <referenceContainer name="page.wrapper">
+        <container name="header-top" as="header-top" before="-" label="Header Top" htmlTag="div" htmlClass="header-top">
+            <container name="header-top-content" as="header-top-content" htmlTag="div"/>
+        </container>
+    </referenceContainer>
+</layout>

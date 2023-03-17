@@ -5,4 +5,5 @@
             <container name="header-top-content" as="header-top-content" htmlTag="div"/>
         </container>
     </referenceContainer>
+    <move element="form.subscribe" destination="page.wrapper" after="main.content" before="footer"/>
 </layout>

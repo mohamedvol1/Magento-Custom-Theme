@@ -13,5 +13,11 @@
                 <argument name="logo_alt" xsi:type="string">Logo name</argument>
             </arguments>
         </referenceBlock>
+        <referenceContainer name="page.wrapper">
+            <container name="header-top" as="header-top" before="-" label="Header Top" htmlTag="div" htmlClass="header-top">
+                <container name="header-top-content" as="header-top-content" htmlTag="div"/>
+            </container>
+        </referenceContainer>
+        <move element="form.subscribe" destination="page.wrapper" after="main.content" before="footer"/>        
     </body>
 </page>
